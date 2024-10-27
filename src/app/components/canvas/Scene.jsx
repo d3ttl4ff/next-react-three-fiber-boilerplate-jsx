@@ -5,10 +5,6 @@ import { Canvas } from '@react-three/fiber';
 import Experience from '../../experience/Experience';
 import { LevaPane } from '../../experience/common';
 
-const created = ({ gl }) => {
-  gl.setClearColor('#05070f', 1);
-};
-
 const Scene = () => {
   return (
     <div className="relative h-screen">
@@ -21,7 +17,6 @@ const Scene = () => {
             far: 100,
             position: [-4, 3, 6],
           }}
-          onCreated={created}
         >
           <Experience />
         </Canvas>
