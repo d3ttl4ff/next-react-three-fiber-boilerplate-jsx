@@ -15,7 +15,7 @@ const Experience = () => {
 
       {/* Environment */}
       <Lights />
-      {/* <EnvironmentMap /> */}
+      <EnvironmentMap />
 
       {/* World */}
       <Base />
